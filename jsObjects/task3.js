@@ -1,7 +1,7 @@
 car1 = {
     brand: "BMW",
     model: "X5",
-    year: "2018"
+    year: 2018
 };
 
 car2 = {
