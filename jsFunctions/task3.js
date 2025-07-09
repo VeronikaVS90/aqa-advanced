@@ -12,4 +12,3 @@ const checkOrder = (available, ordered) => {
 
 checkOrder(10, 5);
 
-// commented
