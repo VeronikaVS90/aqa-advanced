@@ -11,5 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "chalk": "^5.4.1"
+  },
+  "devDependencies": {
+    "prettier": "3.6.2"
   }
 }
