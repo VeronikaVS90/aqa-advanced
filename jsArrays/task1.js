@@ -12,7 +12,7 @@ for (let i = 0; i < numbers.length; i++) {
     } else if (number < 0) {
         negativeCount++;
     } else {
-        zeroCount++
+        zeroCount++;
     }
 };
 

@@ -10,8 +10,8 @@ class EBook extends Book {
 		return this._fileFormat;
 	}
 	set fileFormat(value) {
-		if (typeof value !== 'string' || value.trim() === '') {
-			throw new Error('Invalid file format');
+		if (typeof value !== "string" || value.trim() === "") {
+			throw new Error("Invalid file format");
 		}
 		this._fileFormat = value;
 	}
@@ -22,7 +22,7 @@ class EBook extends Book {
 
 	static createFromBook(book, format) {
 		if (!(book instanceof Book)) {
-			throw new Error('Argument must be an instance of Book');
+			throw new Error("Argument must be an instance of Book");
 		}
 		return new EBook(book.title, book.author, book.year, format);
 	}

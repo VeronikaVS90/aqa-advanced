@@ -10,7 +10,7 @@ console.log(result1);
 // function expression
 const getSquareExpression = function (width, height) {
     return width * height;
-}
+};
 
 const result2 = getSquareExpression(5, 10);
 console.log(result2);
