@@ -9,8 +9,8 @@ class Book {
 		return this._title;
 	}
 	set title(value) {
-		if (typeof value !== 'string' || value.trim() === '') {
-			throw new Error('Invalid title');
+		if (typeof value !== "string" || value.trim() === "") {
+			throw new Error("Invalid title");
 		}
 		this._title = value;
 	}
@@ -19,8 +19,8 @@ class Book {
 		return this._author;
 	}
 	set author(value) {
-		if (typeof value !== 'string' || value.trim() === '') {
-			throw new Error('Invalid author');
+		if (typeof value !== "string" || value.trim() === "") {
+			throw new Error("Invalid author");
 		}
 		this._author = value;
 	}
@@ -29,8 +29,8 @@ class Book {
 		return this._year;
 	}
 	set year(value) {
-		if (typeof value !== 'number' || value < 0) {
-			throw new Error('Invalid year');
+		if (typeof value !== "number" || value < 0) {
+			throw new Error("Invalid year");
 		}
 		this._year = value;
 	}
