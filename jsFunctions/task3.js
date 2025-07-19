@@ -9,3 +9,6 @@ const checkOrder = (available, ordered) => {
     
     return "Your order is accepted";
 };
+
+checkOrder(10, 5);
+
