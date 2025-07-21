@@ -84,3 +84,15 @@ test("Create another new post", async () => {
     expect(response.data).toHaveProperty("title");
     expect(response.data).toHaveProperty("body");
 });
+
+// POST(6)
+test("Create a new todo", async () => {
+  const response = await api.post("/todos", {
+    title: "To do my automation homework",
+    completed: true,
+    userId: 1,
+  });
+
+  console.log(response.data);
+  expect(response.status).toEqual(201);
+});
